@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero {
+  background-color: #4169e1a5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.hero-image {
+  background: url("/images/developer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5vh 2.5vh;
+  min-height: 90vh;
+}
+.hero-image h1 {
+  position: relative;
+  top: 70%;
+  background-color: royalblue;
+  color: coral;
+  font-size: 5rem;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 1rem;
+border-bottom: 2px solid coral;
+}
+img.icon {
+  width: 1.5rem;
+  cursor: pointer;
+}
+.social-icons{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    padding: 1rem 0;
+}
+.my-work{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-bottom: 2px solid coral;
+}
+.my-work div{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.contact-me{
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: lightblue;
+}
+footer{
+background: url("/images/developer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 25vh;
+}
