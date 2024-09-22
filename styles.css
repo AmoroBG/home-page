@@ -5,7 +5,8 @@
 }
 body {
   overflow-x: hidden;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -41,40 +42,55 @@ h2 {
   flex-direction: column;
   margin: 2rem 0;
   padding: 1rem;
-border-bottom: 2px solid coral;
+  border-bottom: 2px solid coral;
 }
 img.icon {
   width: 1.5rem;
   cursor: pointer;
 }
-.social-icons{
-    display: flex;
-    gap: 1rem;
-    justify-content: flex-end;
-    padding: 1rem 0;
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  padding: 1rem 0;
 }
-.my-work{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
+.my-work {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+.my-work div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.contact-me {
+  margin: 1rem 0;
+  padding: 1rem;
+background-color: rgba(65, 105, 225, 0.409);
+}
+footer {
+  background: url("/images/developer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body{
+        background-color: rgba(65, 105, 225, 0.348);
+    }
+  .container {
+    width: 65%;
+    margin: auto;
     padding: 1rem;
-    border-bottom: 2px solid coral;
+  }
 }
-.my-work div{
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    font-weight: bold;
-}
-.contact-me{
-    margin: 1rem 0;
-    padding: 1rem;
-    background-color: lightblue;
-}
-footer{
-background: url("/images/developer.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 25vh;
-}
+
+
